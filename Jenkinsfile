@@ -3,8 +3,11 @@ import com.mainstreethub.jenkins.pipelines.java.library.Pipeline
 
 def notifier = new Notifier([
   steps: this,
-  ownerChannels: ["infrastructure-notify"]
+  ownerChannels: ["data-team-notif"]
 ])
 
 new Pipeline(this)
-  .run([notifier: notifier])
+  .run([
+    notifier: notifier,
+    isOpenSource: true
+  ])
