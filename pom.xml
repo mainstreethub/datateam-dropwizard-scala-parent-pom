@@ -11,6 +11,13 @@
   <artifactId>datateam-dropwizard-scala-parent-pom</artifactId>
   <version>1.0.0-8-SNAPSHOT</version>
   <packaging>pom</packaging>
+  
+  <scm>
+    <url>https://github.com/mainstreethub/datateam-dropwizard-scala-parent-pom</url>
+    <connection>scm:git:git@github.com:mainstreethub/datateam-dropwizard-scala-parent-pom</connection>
+    <developerConnection>scm:git:git@github.com:mainstreethub/datateam-dropwizard-scala-parent-pom</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
 
   <properties>
     <dropwizard-scala.commons.version>0.0.6</dropwizard-scala.commons.version>
