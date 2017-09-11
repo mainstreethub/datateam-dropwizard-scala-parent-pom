@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>datateam-dropwizard-scala-parent-pom</artifactId>
-  <version>1.0.1-1-SNAPSHOT</version>
+  <version>1.0.2-1-SNAPSHOT</version>
   <packaging>pom</packaging>
   
   <scm>
@@ -20,7 +20,7 @@
   </scm>
 
   <properties>
-    <dropwizard-scala.commons.version>0.0.8</dropwizard-scala.commons.version>
+    <dropwizard-scala.commons.version>0.1.1</dropwizard-scala.commons.version>
     <mysql-connector.version>5.1.38</mysql-connector.version>
     <mysql-junit4.version>1.0.1</mysql-junit4.version>
   </properties>
